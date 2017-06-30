@@ -64,6 +64,11 @@ h1, .button-text {
 
 }
 
+.final {
+  text-align: center;
+  font-size: 22px;
+  padding: 40px;
+}
 footer {
   background-color: #313131;
   color: #FFFDD0;
