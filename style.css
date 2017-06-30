@@ -1,0 +1,102 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: -webkit-linear-gradient(#313131, #47395F);
+  background: -o-linear-gradient(#313131, #47395F);
+  background: -moz-linear-gradient(#313131, #47395F);
+  background: linear-gradient(#313131, #47395F);
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Oswald, sans-serif;
+  font-weight: 200;
+}
+
+.container {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+h1, .main-text, .subheading {
+  background-color: #FFFDD0;
+}
+
+header {
+  color: #313131;
+  text-align: center;
+}
+
+h1 {
+  width: auto;
+  font-size: 72px;
+  padding: 150px 0 0 0;
+}
+
+h1, .button-text {
+  font-family: Quattrocento Sans, serif;
+  letter-spacing: -0.05em;
+}
+
+.subheading {
+  font-size: 26px;
+  padding: 0px 45px 150px 45px;
+}
+
+.main-text {
+  padding: 60px 75px 100px 75px;
+  line-height: 1.35em;
+}
+
+.dates {
+  border: 1px solid #923069;
+  display: inline-block;
+  padding: 3px;
+  margin-bottom: 3px;
+  margin-top: 20px;
+}
+
+.body-text {
+
+}
+
+footer {
+  background-color: #313131;
+  color: #FFFDD0;
+  text-align: center;
+  padding: 150px 0px 0px 0px;
+}
+
+.button {
+  background-color: #1990FF;
+  border-radius: 5px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0px solid #923069;
+}
+
+.button-text {
+  font-size: 36px;
+  color: #FFFDD0;
+  padding: 20px 30px 20px 30px;
+}
+
+.footer-text {
+  font-size: 13px;
+  padding-top: 125px;
+  padding-bottom: 10px;
+}
+
+a:link {
+  color: #1990FF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #923069;
+}
