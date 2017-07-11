@@ -1,80 +1,93 @@
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-body {
+html {
   background: -webkit-gradient(linear, left top, left bottom, from(#313131), to(#47395F));
   background: linear-gradient(#313131, #47395F);
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
   font-family: Oswald, sans-serif;
   font-weight: 200;
+  font-size: 18px;
 }
 
-h1, .main-text, .subheading {
+body {
+  max-width: 960px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #FFFDD0;
-}
+  }
 
 header {
   color: #313131;
   text-align: center;
+  padding: 12% 4%;
+  width: auto;
 }
 
 h1 {
   width: auto;
-  font-size: 72px;
-  padding: 150px 0 0 0;
-}
-
-h1, .button {
+  font-size: 350%;
   font-family: Quattrocento Sans, serif;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.05rem;
 }
 
 .subheading {
-  font-size: 22px;
-  padding: 0 45px 150px 45px;
+  font-size: 1.1rem;
+}
+
+.image-container {
+  background-color: #FFFDD0;
+  padding-bottom: 8%;
+
+}
+
+.image-1 {
+  width: 100%;
 }
 
 .main-text {
-  padding: 60px 75px 100px 75px;
-  line-height: 1.35em;
+  width: 85%;
+  margin: auto;
+  line-height: 1.4rem;
 }
 
 .dates {
-  border: 1px solid #923069;
+  border-bottom: 2px solid #47395F;
   display: inline-block;
-  padding: 3px;
-  margin-bottom: 3px;
-  margin-top: 20px;
+  margin: 3% auto 1%;
 }
 
-.final {
+.to-be-continued {
   text-align: center;
-  font-size: 22px;
-  padding: 40px;
+  font-size: 1.1rem;
+  padding: 8% 0;
+  width: auto;
 }
 
 footer {
   background-color: #313131;
   color: #FFFDD0;
   text-align: center;
-  padding: 150px 0 0 0;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 .button:link,
 .button:visited {
-  font-size: 36px;
+  margin: 11% auto;
+  font-size: 1.4rem;
   color: #FFFDD0;
-  padding: 20px 40px;
+  padding: 3% 6%;
   background-color: #313131;
-  margin-left: auto;
-  margin-right: auto;
+  font-family: Quattrocento Sans, serif;
+  letter-spacing: -0.05rem;
   display: inline-block;
   border-radius: 50px;
   border: 2px solid #FFFDD0;
@@ -83,27 +96,26 @@ footer {
 
 .button:hover,
 .button:active {
-  font-size: 36px;
   color: #313131;
-  padding: 20px 40px;
   background-color: #FFFDD0;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-block;
-  border-radius: 50px;
 }
 
 .footer-text {
-  font-size: 13px;
-  padding-top: 125px;
-  padding-bottom: 10px;
+  font-size: 0.7rem;
+  padding-bottom: 1%;
 }
 
-a:link {
-  color: #1990FF;
-  text-decoration: none;
+.github-link:link,
+.article-link:link {
+  color: #858585;
 }
 
-a:hover {
+.github-link:hover,
+.article-link:hover {
   color: #fff;
 }
+
+
+
+
+  /* http://davidandsigi.com/wp-content/uploads/2017/07/andrew-still-reading-single.jpg http://davidandsigi.com/wp-content/uploads/2017/07/andrew-still-sitting-1.jpg http://davidandsigi.com/wp-content/uploads/2017/07/andrew-still-studying-1.jpg */
